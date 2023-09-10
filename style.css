@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+/*Makes all h2 headers centered*/
+h2{
+    text-align: center;
+}
+
+/*Auto resizes windows if webpage on client's display is minimized or rescaled*/
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*Centers the introduction*/
+.intro{
+    text-align: center;
+}
+
+/*Rounds the borders of only the first image, also centers it*/
+.first_image {
+    border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
